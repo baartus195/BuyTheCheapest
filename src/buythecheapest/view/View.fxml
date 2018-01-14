@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="282.0" prefWidth="360.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="buythecheapest.controller.View">
+   <children>
+      <Button fx:id="end" layoutY="188.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="360.0" text="End" AnchorPane.bottomAnchor="35.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+      <Button fx:id="start" layoutY="125.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="360.0" text="Start" AnchorPane.bottomAnchor="77.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+      <TextField fx:id="url" layoutX="180.0" layoutY="111.0" prefHeight="30.0" prefWidth="180.0" AnchorPane.bottomAnchor="140.0" AnchorPane.leftAnchor="180.0" AnchorPane.rightAnchor="0.0" />
+      <TextField fx:id="email" layoutX="180.0" layoutY="31.0" prefHeight="30.0" prefWidth="180.0" AnchorPane.bottomAnchor="220.0" AnchorPane.leftAnchor="180.0" AnchorPane.rightAnchor="0.0" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutY="111.0" prefHeight="30.0" prefWidth="180.0" text="URL:" AnchorPane.bottomAnchor="140.0" AnchorPane.leftAnchor="0.0" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutY="31.0" prefHeight="30.0" prefWidth="180.0" text="Email" AnchorPane.bottomAnchor="221.0" AnchorPane.leftAnchor="0.0" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="76.0" layoutY="221.0" prefHeight="15.0" prefWidth="360.0" text="BuyTheCheapest v1.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Label>
+      <Circle fx:id="circle" fill="#f1f7fc" layoutX="20.0" layoutY="16.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" AnchorPane.bottomAnchor="258.0" AnchorPane.leftAnchor="12.0" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutY="74.0" prefHeight="30.0" prefWidth="180.0" text="Password" AnchorPane.bottomAnchor="180.0" AnchorPane.leftAnchor="0.0" />
+      <PasswordField fx:id="password" layoutX="186.0" layoutY="72.0" prefHeight="30.0" prefWidth="180.0" AnchorPane.bottomAnchor="180.0" AnchorPane.leftAnchor="180.0" AnchorPane.rightAnchor="0.0" />
+   </children>
+</AnchorPane>
